@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Home from './components/pages/Home';
 
 ReactDOM.render(
-  <h1>Holi Bebes!</h1>,
+  <Home />,
   document.getElementById('app')
 );
