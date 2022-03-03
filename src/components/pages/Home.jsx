@@ -5,6 +5,10 @@ import DefaultLayout from '../layouts/DefaultLayout';
  * @returns{JSX.Element}
  */
 
-export const Home = () => <DefaultLayout/>;
+export const Home = () => (
+ <DefaultLayout>
+        <h1>Página Principal</h1>
+ </DefaultLayout>
+);
 
-export default Home;{}
+export default Home;
