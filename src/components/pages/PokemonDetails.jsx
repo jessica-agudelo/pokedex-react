@@ -1,5 +1,6 @@
 import React from 'react';
 import DefaultLayout from '../layouts/DefaultLayout';
+
 /**
  * PokemonDetails component. 
  * @returns{JSX.Element}
