@@ -6,7 +6,7 @@ import DefaultLayout from '../layouts/DefaultLayout';
  * @returns{JSX.Element}
  */
 export const PokemonDetails = () =>(
-    <DefaultLayout>
+    <DefaultLayout title='Detalle'>
         <h1>Pokemon Details Page</h1>
     </DefaultLayout>
 );

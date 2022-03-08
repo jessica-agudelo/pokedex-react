@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
  */
 
 export const Home = () => (
- <DefaultLayout>
+ <DefaultLayout title='Home'>
         <h1>Página Principal</h1>
         <Link to='/pokemon/1'>Dummy de acceso a detalles de pokemos</Link>
  </DefaultLayout>
