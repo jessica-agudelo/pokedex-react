@@ -14,6 +14,7 @@ export const NavBrand = () => {
     return(
     <div onClick={handleClick}>
         <img src='' alt="Logo de la app" />
+        
             <span>POKEDEX_</span>
     </div>
 )};

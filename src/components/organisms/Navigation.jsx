@@ -1,5 +1,7 @@
 import React from "react";
-import NavBrand from "../../molecules/NavBrand";
+import NavBrand from "../molecules/NavBrand";
+import NavItems from "../molecules/NavItems";
+
 /**
  * Navigation component. 
  * @returns{JSX.Element}
@@ -8,9 +10,9 @@ import NavBrand from "../../molecules/NavBrand";
 
 export const Navigation = () =>(
 <nav>
-   <NavBrand>
-       
-   </NavBrand>
+   <NavBrand/>
+   <NavItems/>
+   
 </nav>
 );
 export default Navigation;
