@@ -4,7 +4,6 @@ import React from "react";
  * @returns{JSX.Element}
  */
 
-
-export const Footer = () =><footer></footer>;
+ const Footer = () =><footer></footer>;
 
 export default Footer;

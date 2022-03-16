@@ -1,11 +1,11 @@
 import React from 'react';
-import DefaultLayout from '../layouts/DefaultLayout';
+import DefaultLayout from '../../templates/default-layout/DefaultLayout';
 
 /**
  * PokemonDetails component. 
  * @returns{JSX.Element}
  */
-export const PokemonDetails = () =>(
+ const PokemonDetails = () =>(
     <DefaultLayout title='Detalle'>
         <h1>Pokemon Details Page</h1>
     </DefaultLayout>

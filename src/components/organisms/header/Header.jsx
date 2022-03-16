@@ -6,7 +6,7 @@ import React from "react";
  * @returns{JSX.Element}
  */
 
-export const Header = () => (
+ const Header = () => (
     <header></header>
 );
  

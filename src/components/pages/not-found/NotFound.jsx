@@ -1,5 +1,5 @@
 import React from "react";
-import DefaultLayout from "../layouts/DefaultLayout";
+import DefaultLayout from '../../templates/default-layout/DefaultLayout';
 
 /**
  * Not found component.
@@ -7,7 +7,7 @@ import DefaultLayout from "../layouts/DefaultLayout";
  * @returns{JSX.Element}
  */
 
-export const NotFound = () => (
+ const NotFound = () => (
     <DefaultLayout title='404'>
         <h1>Not Found page</h1>
     </DefaultLayout>

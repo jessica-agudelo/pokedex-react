@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
  */
 
 
-export const NavBrand = () => {
+ const NavBrand = () => {
  let navigate = useNavigate();
  const handleClick=()=>{
      navigate('/');
