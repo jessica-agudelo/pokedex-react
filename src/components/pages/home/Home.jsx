@@ -1,5 +1,5 @@
 import React from 'react';
-import DefaultLayout from '../../templates/default-layout/DefaultLayout';
+import DefaultLayout from 'components/templates/default-layout/DefaultLayout';
 import { Link } from 'react-router-dom';
 /**
  * Home component. 
@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
  const Home = () => (
  <DefaultLayout title='Home'>
         <h1>Página Principal</h1>
-        <Link to='/pokemon/1'>Dummy de acceso a detalles de pokemos</Link>
+        <Link to='/pokemon/1'>Dummy de acceso a detalles de pokemon</Link>
  </DefaultLayout>
 );
 
