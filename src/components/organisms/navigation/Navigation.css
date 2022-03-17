@@ -1,7 +1,9 @@
+
 .o-navigation{
     align-items: center;
-    background-color: aqua;
+    background-color: #ec110a;
+    color:#ffffff;
     display: flex ;
     justify-content: space-between;
-    padding: irem;
+    padding: 1rem;
 }

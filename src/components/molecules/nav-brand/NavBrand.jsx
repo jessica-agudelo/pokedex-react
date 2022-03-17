@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import logo from 'assets/img/logo.png';
-
+import "./nav-brand.css";
 /**
  * Navigation Brand component. 
  * @returns{JSX.Element}
@@ -14,10 +14,13 @@ import logo from 'assets/img/logo.png';
      navigate('/');
  };
     return(
-    <div onClick={handleClick}>
-        <img src={logo} alt="Logo de la app" />
+    <div className="m-nav-brand" onClick={handleClick}>
+        <img className="m-nav-brand__image" 
+        src={logo} 
+        alt="Logo de la aplicación"
+         />
         
-            <span>POKEDEX_</span>
+        <span className="m-nav-brand__text">POKEDEX_</span>
     </div>
 )};
 
