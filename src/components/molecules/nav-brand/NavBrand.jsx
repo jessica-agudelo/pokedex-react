@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import logo from 'assets/img/logo.png';
-import "./nav-brand.css";
+import "./NavBrand.css";
 /**
  * Navigation Brand component. 
  * @returns{JSX.Element}
