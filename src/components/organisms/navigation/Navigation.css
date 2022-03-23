@@ -1,0 +1,9 @@
+
+.o-navigation{
+    align-items: center;
+    background-color: #ec110a;
+    color:#ffffff;
+    display: flex ;
+    justify-content: space-between;
+    padding: 1rem;
+}
