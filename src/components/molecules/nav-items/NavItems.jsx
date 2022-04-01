@@ -30,10 +30,12 @@ const NavItems = (props) => {
 };
 
 NavItems.propTypes = {
-  items: PropTypes.shape({
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
     text: PropTypes.string,
     target: PropTypes.string,
-  }),
+  })
+  ),
 };
 
 export default NavItems;
